@@ -1,0 +1,87 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.app-main {
+  background-color: #f4f5f7;
+}
+
+/* App background */
+.app-main {
+  min-height: 100vh;
+  background-color: #f4f5f7;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  min-height: 100vh;
+  background-color: #f8f9fb;
+  border-right: 1px solid #e5e7eb;
+}
+
+/* Sidebar header */
+.sidebar-header {
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sidebar-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #111827;
+}
+
+.sidebar-subtitle {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+/* Nav links */
+.sidebar .nav-link {
+  color: #6b7280;
+  border-radius: 0.5rem;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #eceef1;
+  color: #111827;
+}
+
+.sidebar .nav-link.active {
+  background-color: #e5e7eb;
+  color: #111827;
+  font-weight: 600;
+}

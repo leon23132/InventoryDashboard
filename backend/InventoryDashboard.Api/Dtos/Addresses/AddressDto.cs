@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace InventoryDashboard.Api.Dtos.Addresses
+{
+    public class AddressDto
+    {
+        [Required]
+        public int AddressId { get; set; }
+        [Required]
+        [StringLength(150)]
+        public string StreetAddress { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(80)]
+        public string City { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(20)]
+        public string PostalCode { get; set; } = string.Empty;
+
+        [Required]
+        [StringLength(80)]
+        public string Country { get; set; } = string.Empty;
+    }
+}

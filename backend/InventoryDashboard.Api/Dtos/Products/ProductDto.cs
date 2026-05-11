@@ -1,0 +1,21 @@
+using System.Threading.Tasks;
+
+namespace InventoryDashboard.Api.Dtos.Products
+{
+  public class ProductDto
+  {
+    public int Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string? Description { get; set; }
+
+    public int CategoryId { get; set; }
+    public string? CategoryName { get; set; }
+    public int SupplierId { get; set; }
+    public string? SupplierName { get; set; }
+
+    public decimal Price { get; set; }
+    public int QuantityInStock { get; set; }
+    public int MinimumStock { get; set; }
+    public string? Location { get; set; }
+  }
+}
