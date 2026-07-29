@@ -11,7 +11,6 @@
 
 Das **Inventory Dashboard** ist eine responsive Fullstack-Anwendung für kleine und mittlere Unternehmen, die ihre Lagerdaten strukturiert verwalten möchten. Die Anwendung verbindet ein React-Frontend mit einer REST-API auf Basis von ASP.NET Core und einer relationalen SQL-Server-Datenbank.
 
-Ich habe das Projekt im Rahmen meiner individuellen praktischen Arbeit (**IPA**) zum Abschluss als **Informatiker EFZ Applikationsentwicklung** konzipiert und umgesetzt. Der Schwerpunkt lag auf einer klaren Architektur, nachvollziehbaren Geschäftsprozessen, Datenvalidierung und automatisierten Tests.
 
 Das Repository zeigt insbesondere meine Kenntnisse in:
 
